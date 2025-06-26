@@ -3,7 +3,7 @@ CREATE DATABASE student_admission;
 --Student Details
 
 CREATE TABLE student_details(
-stu_id INT PRIMARY KEY,
+stu_id INT,
 first_name VARCHAR(100),
 last_name VARCHAR(100),
 student_dob DATE,
